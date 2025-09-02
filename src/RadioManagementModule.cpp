@@ -5,6 +5,7 @@
 #include <map>
 #include <thread>
 #include <vector>
+#include <chrono>
 
 RadioManagementModule::RadioManagementModule(
     RtlUsbAdapter device, std::shared_ptr<EepromManager> eepromManager,

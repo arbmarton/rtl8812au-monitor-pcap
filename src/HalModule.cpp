@@ -9,6 +9,7 @@
 
 #include <memory>
 #include <thread>
+#include <chrono>
 
 #define DRVINFO_SZ 4
 
